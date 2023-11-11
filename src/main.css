@@ -36,4 +36,64 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #010409;
+  height: 60px;
+  align-items: center;
+}
+.navbar i {
+  color: #737a85;
+}
+.navbar .left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .left button {
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+  color: white;
+  background-color: #010409;
+  border: none;
+}
+.navbar .left button:hover {
+  background-color: #737a85;
+}
+.navbar .left div {
+  margin-left: 10px;
+}
+.navbar .left div i {
+  font-size: 30px;
+}
+.navbar .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar .right .searchbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .right .searchbar input {
+  background-color: #010409;
+  outline: none;
+}
+.navbar .right .photo {
+  border: solid 1px #010409;
+}
+.navbar .right div {
+  margin: 0px 10px;
+  border: solid 1px #737a85;
+}
+.navbar .right div img {
+  border-radius: 50%;
+}
+.navbar .right div i {
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */
