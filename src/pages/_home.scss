@@ -4,16 +4,33 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar {
-  i {
-    color: #737a85;
-  }
   display: flex;
   justify-content: space-between;
   background-color: #010409;
   height: 60px;
   align-items: center;
 
-  .left {
+  .left1 {
+    i {
+      color: white;
+    }
+    #first {
+      font-size: 15px;
+      color: #737a85;
+    }
+    #second {
+      background-color: #010409;
+    }
+
+    .firstD {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      border: solid 1px #737a85;
+      width: 30px;
+      border-radius: 4px;
+    }
     button {
       border-radius: 5px;
       padding: 8px;
@@ -35,13 +52,25 @@
       }
     }
   }
-  .right {
+  .right1 {
+    div {
+      border-radius: 4px;
+    }
+    i {
+      color: #737a85;
+    }
     .searchbar {
+      .searchbarbox {
+        border: none;
+      }
+      width: 350px;
       display: flex;
+      justify-content: space-between;
       align-items: center;
       input {
         background-color: #010409;
         outline: none;
+        border: none;
       }
     }
     display: flex;
@@ -54,11 +83,159 @@
       img {
         border-radius: 50%;
       }
-      margin: 0px 10px;
+      margin: 0px 5px;
       border: solid 1px #737a85;
       i {
         padding: 5px;
       }
     }
+  }
+}
+.container {
+  display: flex;
+  .left {
+    background-color: #0d1117;
+    width: 22%;
+    height: 1000px;
+    .leftbox {
+      .dotbox {
+        border: 1px dotted #737a85;
+        margin-top: 10px;
+
+        h5 {
+          color: #737a85;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 15px;
+          padding-right: 20px;
+        }
+      }
+      .recent {
+        color: white;
+        margin-top: 30px;
+      }
+      .repository {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+
+        img {
+          cursor: pointer;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          margin-right: 7px;
+        }
+        h5 {
+          cursor: pointer;
+          color: white;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .find {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        input {
+          width: 290px;
+          color: #737a85;
+          height: 28px;
+          border-radius: 5px;
+          border: 1px solid #737a85;
+          background-color: #010409;
+        }
+      }
+      margin-top: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+      .new {
+        .text {
+          color: white;
+        }
+        background-color: #0d1117;
+
+        display: flex;
+        justify-content: space-between;
+        .newbutton {
+          &:hover {
+            background-color: #299a3f;
+          }
+          cursor: pointer;
+          h5 {
+            color: white;
+          }
+          i {
+            margin-right: 5px;
+            color: white;
+          }
+          background-color: #238636;
+          width: 65px;
+          height: 30px;
+          border-radius: 6px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .middle {
+    background-color: red;
+    .middlebox {
+      .head {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+          color: white;
+        }
+
+        .feedback {
+          .send {
+            &:hover {
+              text-decoration: underline;
+            }
+            color: #1164e7;
+            padding: 0px 15px;
+          }
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .filterbox {
+            padding: 3px 12px;
+            border: solid 1px #737a85;
+            border-radius: 7px;
+            background-color: #21262d;
+            i {
+              padding: 3px;
+              color: #737a85;
+            }
+            h4 {
+              color: white;
+              padding: 3px;
+            }
+            h5 {
+              color: white;
+              align-items: center;
+              padding: 0px 5px;
+              background-color: #30363d;
+              border-radius: 50%;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      margin: 15px;
+    }
+    width: 50%;
+
+    height: 1000px;
+  }
+  .right {
+    width: 28%;
+    background-color: blue;
+    height: 1000px;
   }
 }
