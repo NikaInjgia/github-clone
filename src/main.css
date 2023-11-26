@@ -221,6 +221,53 @@
 .container .middle .middlebox {
   margin: 15px;
 }
+.container .middle .middlebox .box {
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+.container .middle .middlebox .box .upbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.container .middle .middlebox .box .upbox .leftbox {
+  display: flex;
+}
+.container .middle .middlebox .box .upbox .leftbox .trend {
+  margin: 0px 5px;
+}
+.container .middle .middlebox .box .upbox .leftbox .see {
+  color: #1164e7;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.container .middle .middlebox .box .upbox .leftbox .see:hover {
+  text-decoration: underline;
+}
+.container .middle .middlebox .firstcontainer {
+  border: 1px solid #737a85;
+  background-color: #02050d;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.container .middle .middlebox .firstcontainer .learn {
+  margin: 15px;
+  cursor: pointer;
+  color: #1164e7;
+  padding-bottom: 15px;
+}
+.container .middle .middlebox .firstcontainer .containerupperbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.container .middle .middlebox .firstcontainer .containerupperbox div i {
+  color: #737a85;
+}
+.container .middle .middlebox .firstcontainer .containerupperbox .white {
+  color: white;
+}
 .container .middle .middlebox .head {
   display: flex;
   justify-content: space-between;

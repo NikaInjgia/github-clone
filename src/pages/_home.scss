@@ -183,6 +183,57 @@
   .middle {
     background-color: red;
     .middlebox {
+      .box {
+        margin-top: 15px;
+        border-radius: 10px;
+        background-color: yellow;
+
+        .upbox {
+          display: flex;
+          justify-content: space-between;
+          padding: 15px;
+          .leftbox {
+            display: flex;
+            .trend {
+              margin: 0px 5px;
+            }
+            .see {
+              &:hover {
+                text-decoration: underline;
+              }
+              color: #1164e7;
+              margin: 0px 5px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .firstcontainer {
+        border: 1px solid #737a85;
+        background-color: #02050d;
+        border-radius: 10px;
+        .learn {
+          margin: 15px;
+          cursor: pointer;
+          color: #1164e7;
+          padding-bottom: 15px;
+        }
+
+        margin-top: 10px;
+        .containerupperbox {
+          div {
+            i {
+              color: #737a85;
+            }
+          }
+          .white {
+            color: white;
+          }
+          display: flex;
+          justify-content: space-between;
+          padding: 15px;
+        }
+      }
       .head {
         display: flex;
         justify-content: space-between;
